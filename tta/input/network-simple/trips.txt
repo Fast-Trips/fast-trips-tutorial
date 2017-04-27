@@ -1,0 +1,10 @@
+trip_id,route_id,service_id,direction_id
+B1,Blue,TTA,1
+B2,Blue,TTA,1
+B3,Blue,TTA,1
+G1,Green,TTA,1
+G2,Green,TTA,1
+G3,Green,TTA,1
+G4,Green,TTA,1
+R1,Red,TTA,1
+R2,Red,TTA,1

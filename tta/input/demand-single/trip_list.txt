@@ -1,0 +1,2 @@
+person_id,person_trip_id,o_taz,d_taz,mode,purpose,departure_time,arrival_time,time_target,vot
+Tuffie,1,O,D,transit,basketball,7:00:00,8:00:00,departure,10

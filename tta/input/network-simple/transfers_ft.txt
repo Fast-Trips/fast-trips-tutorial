@@ -1,0 +1,5 @@
+from_stop_id,to_stop_id,dist
+B,B1,0.30
+B,B2,0.40
+
+

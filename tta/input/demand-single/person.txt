@@ -1,0 +1,5 @@
+person_id,hh_id
+Rameses,Tarheel
+Tuffie,Wolfpack
+Mrs. Wuf,Wolfpack
+Mike,Devil
