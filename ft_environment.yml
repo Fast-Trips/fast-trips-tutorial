@@ -1,4 +1,4 @@
-name: Fast-Trips-Tutorial
+name: Fast-Trips-Tutorial-AppCon2017
 channels:
 - !!python/unicode
   'defaults'
@@ -17,7 +17,9 @@ dependencies:
   'pyproj=1.9.5.1=py27_0'
 - !!python/unicode
   'python=2.7.13=0'
+- seaborn
 - pip:
   - folium==0.2.1
   - transitfeed==1.2.14
-prefix: !!python/unicode '//anaconda/envs/Fast-Trips-Tutorial'
+  - fasttrips
+prefix: !!python/unicode '//anaconda/envs/appcontutorial'
