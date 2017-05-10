@@ -35,17 +35,17 @@ If you are interested in installing a development version of Fast-Trips where yo
 
 The easiest way to setup the all of this software is use virtual environments so as to not disturb any other Python installations you may have, but you can also choose to use `pip install <package name>` to install all of these packages [ although we haven't tested it in your environment to verify that it will work! ]
 
-An easy way to use virtual environments is to download and install the [Anaconda package for Python 2.7](https://www.continuum.io/downloads).  
+  1.  **Install Anaconda**  An easy way to use virtual environments is to download and install the [Anaconda package for Python 2.7](https://www.continuum.io/downloads).  
 
-Once you have installed Anaconda, you can use the [Anaconda Navigator](https://docs.continuum.io/anaconda/navigator) to install a [virtual environment](https://conda.io/docs/using/envs.html).  Working within a virtual environment will ensure that you don't 'mess up' any other python installations on your computer with settings that are specific for Fast-Trips.  
+  2.  **Import Virtual Environment**  Once you have installed Anaconda, you can use the [Anaconda Navigator](https://docs.continuum.io/anaconda/navigator) to install a [virtual environment](https://conda.io/docs/using/envs.html).  Working within a virtual environment will ensure that you don't 'mess up' any other python installations on your computer with settings that are specific for Fast-Trips.  
 
 The easiest way is to import the virtual environment `ft_environment.yml` that is included in this repository using Anaconda Navigator.
 
-![Importing Virtual Environment](/img/anaconda-import-environment.png?raw=true "Importing a Virtual Environment")<!-- .element width="300" -->
+![Importing Virtual Environment](/img/anaconda-import-environment.png?raw=true "Importing a Virtual Environment")<!-- .element width="300px" -->
 
-If for some reason the virtual environment import doesn't work, you can create a new virtual environment and install the following packages on to it either [interactively via the GUI](https://docs.continuum.io/anaconda/navigator-tutorial#step-1-create-and-activate-a-new-environment-for-the-package-you-want-to-use) or by launching a terminal from the virtual environment and using `pip install` as shown below:
+**Alternate Plan: Create Virtual Environment** If for some reason the virtual environment import doesn't work, you can create a new virtual environment and install the following packages on to it either [interactively via the GUI](https://docs.continuum.io/anaconda/navigator-tutorial#step-1-create-and-activate-a-new-environment-for-the-package-you-want-to-use) or by launching a terminal from the virtual environment and using `pip install` as shown below:
 
-![Importing Virtual Environment](/img/terminal-open.png?raw=true "Opening a terminal from a virtual environment")<!-- .element width="300" -->
+![Importing Virtual Environment](/img/terminal-open.png?raw=true "Opening a terminal from a virtual environment")<!-- .element width="300px" -->
 
 ```bash
 pip install notebook
