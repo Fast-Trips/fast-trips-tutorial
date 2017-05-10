@@ -4,4 +4,4 @@ all,basketball,egress,walk,walk_egress,time_min,2
 all,basketball,transit,transit,local_bus,wait_time_min,2
 all,basketball,transit,transit,local_bus,in_vehicle_time_min,1
 all,basketball,transfer,transfer,transfer,transfer_penalty,5
-all,basketball,transfer,transfer,transfer,time_min,2
+all,basketball,transfer,transfer,transfer,walk_time_min,2
