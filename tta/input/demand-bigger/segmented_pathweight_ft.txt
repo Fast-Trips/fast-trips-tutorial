@@ -1,0 +1,13 @@
+user_class,purpose,demand_mode_type,demand_mode,supply_mode,weight_name,weight_value
+other,basketball,access,walk,walk_access,time_min,2
+other,basketball,egress,walk,walk_egress,time_min,2
+other,basketball,transit,transit,local_bus,wait_time_min,2
+other,basketball,transit,transit,local_bus,in_vehicle_time_min,1
+other,basketball,transfer,transfer,transfer,transfer_penalty,3
+other,basketball,transfer,transfer,transfer,time_min,2
+xfer_sensitive,basketball,access,walk,walk_access,time_min,2
+xfer_sensitive,basketball,egress,walk,walk_egress,time_min,2
+xfer_sensitive,basketball,transit,transit,local_bus,wait_time_min,2
+xfer_sensitive,basketball,transit,transit,local_bus,in_vehicle_time_min,1
+xfer_sensitive,basketball,transfer,transfer,transfer,transfer_penalty,6
+xfer_sensitive,basketball,transfer,transfer,transfer,time_min,4
