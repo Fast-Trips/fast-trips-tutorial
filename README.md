@@ -41,11 +41,11 @@ Once you have installed Anaconda, you can use the [Anaconda Navigator](https://d
 
 The easiest way is to import the virtual environment `ft_environment.yml` that is included in this repository using Anaconda Navigator.
 
-![Importing Virtual Environment](/img/anaconda-import-environment.png?raw=true "Importing a Virtual Environment")<!-- .element height="50%" width="50%" -->
+![Importing Virtual Environment](/img/anaconda-import-environment.png?raw=true "Importing a Virtual Environment")<!-- .element width="300" -->
 
 If for some reason the virtual environment import doesn't work, you can create a new virtual environment and install the following packages on to it either [interactively via the GUI](https://docs.continuum.io/anaconda/navigator-tutorial#step-1-create-and-activate-a-new-environment-for-the-package-you-want-to-use) or by launching a terminal from the virtual environment and using `pip install` as shown below:
 
-![Importing Virtual Environment](/img/terminal-open.png?raw=true "Opening a terminal from a virtual environment")<!-- .element height="50%" width="50%" -->
+![Importing Virtual Environment](/img/terminal-open.png?raw=true "Opening a terminal from a virtual environment")<!-- .element width="300" -->
 
 ```bash
 pip install notebook
