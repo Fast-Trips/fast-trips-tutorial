@@ -41,11 +41,11 @@ Once you have installed Anaconda, you can use the [Anaconda Navigator](https://d
 
 The easiest way is to import the virtual environment `ft_environment.yml` that is included in this repository using Anaconda Navigator.
 
-![Importing Virtual Environment](/img/anaconda-import-environment.png?raw=true "Importing a Virtual Environment" | width=200)
+![Importing Virtual Environment](/img/anaconda-import-environment.png?raw=true "Importing a Virtual Environment")<!-- .element height="50%" width="50%" -->
 
 If for some reason the virtual environment import doesn't work, you can create a new virtual environment and install the following packages on to it either [interactively via the GUI](https://docs.continuum.io/anaconda/navigator-tutorial#step-1-create-and-activate-a-new-environment-for-the-package-you-want-to-use) or by launching a terminal from the virtual environment and using `pip install` as shown below:
 
-![Importing Virtual Environment](/img/terminal-open.png?raw=true "Opening a terminal from a virtual environment" | width=200)
+![Importing Virtual Environment](/img/terminal-open.png?raw=true "Opening a terminal from a virtual environment")<!-- .element height="50%" width="50%" -->
 
 ```bash
 pip install notebook
@@ -69,11 +69,16 @@ If you want to download, you can just click the green `clone or download` button
 
 The tutorial can be started by firing up a Jupyter notebook session in your browser from your virtual environment.  This will bring up a file manager.  
 
-![Opening Notebook from Virtual Environment in Anaconda](/img/anaconda-open-notebook.png?raw=true "Opening Notebook from Virtual Environment in Anaconda" | width=200)
+![Opening Notebook from Virtual Environment in Anaconda](/img/anaconda-open-notebook.png?raw=true "Opening Notebook from Virtual Environment in Anaconda")<!-- .element height="50%" width="50%" -->
 
 Navigate to where wherever you downloaded or cloned this repository and click on `Tutorial #1` to start.  When you are done with this tutorial, you can select the next one, etc.
 
-![Navigate to tutorial](/img/navigate-to-tutorial.png?raw=true "Navigate to Tutorial" | width=300)
+{
+  width: 70%;
+  border: none;
+  background: none;
+}
+![Navigate to tutorial](/img/navigate-to-tutorial.png?raw=true "Navigate to Tutorial")<!-- .element height="50%" width="50%" -->
 
 ## Tutorial Contents
 
