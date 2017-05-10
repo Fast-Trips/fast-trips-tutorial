@@ -1,0 +1,16 @@
+# configuration for fasttrips
+[fasttrips]
+max_iterations                = 1
+simulation                    = True
+output_passenger_trajectories = True
+create_skims                  = False
+prepend_route_id_to_trip_id   = True
+capacity_constraint           = False
+trace_ids                     = [('Tuffie','1')]
+number_of_processes           = 1
+bump_buffer                   = 5
+debug_output_columns          = True
+
+[pathfinding]
+stochastic_pathset_size           = 1000
+time_window                       = 30

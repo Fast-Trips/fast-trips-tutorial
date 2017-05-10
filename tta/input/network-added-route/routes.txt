@@ -1,0 +1,5 @@
+route_id,route_short_name,route_long_name,route_type
+Blue,Blue,Route Blue,3
+Green,Green,Route Green,3
+Red,Red,Route Red,3
+Orange,Orange,Route Orange,3

@@ -1,0 +1,7 @@
+user_class,purpose,demand_mode_type,demand_mode,supply_mode,weight_name,weight_value
+all,basketball,access,walk,walk_access,time_min,2
+all,basketball,egress,walk,walk_egress,time_min,2
+all,basketball,transit,transit,local_bus,wait_time_min,2
+all,basketball,transit,transit,local_bus,in_vehicle_time_min,1
+all,basketball,transfer,transfer,transfer,transfer_penalty,5
+all,basketball,transfer,transfer,transfer,time_min,2

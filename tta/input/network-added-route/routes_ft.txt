@@ -1,0 +1,5 @@
+route_id,mode
+Blue,local_bus
+Green,local_bus
+Red,local_bus
+Orange,local_bus

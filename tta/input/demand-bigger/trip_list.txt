@@ -1,0 +1,27 @@
+person_id,person_trip_id,o_taz,d_taz,mode,purpose,departure_time,arrival_time,time_target,vot
+Tuffie,1,O,D,transit,basketball,7:00:00,8:00:00,departure,10
+Rameses,1,O,D,transit,basketball,7:00:00,8:00:00,departure,10
+Michael Jordan,1,O,D,transit,basketball,7:00:00,8:00:00,departure,10
+Jerry Stackhouse,1,O,D,transit,basketball,7:00:00,8:00:00,departure,10
+Dean Smith,1,O,D,transit,basketball,7:00:00,8:00:00,departure,10
+Vince Carter,1,O,D,transit,basketball,7:00:00,8:00:00,departure,10
+Antown Jamison,1,O,D,transit,basketball,7:00:00,8:00:00,departure,10
+Serge Zwikker,1,O,D,transit,basketball,7:00:00,8:00:00,departure,10
+Dante Calabria,1,O,D,transit,basketball,7:00:00,8:00:00,departure,10
+Shammond Williams,1,O,D,transit,basketball,7:00:00,8:00:00,departure,10
+Mrs. Wuf,1,O,D,transit,basketball,7:00:00,8:00:00,departure,10
+Marcus Melvin,1,O,D,transit,basketball,7:00:00,8:00:00,departure,10
+Archie Miller,1,O,D,transit,basketball,7:00:00,8:00:00,departure,10
+Julius Hodge,1,O,D,transit,basketball,7:00:00,8:00:00,departure,10
+Illian Evtimov,1,O,D,transit,basketball,7:00:00,8:00:00,departure,10
+Scooter Sherrill,1,O,D,transit,basketball,7:00:00,8:00:00,departure,10
+Josh Powell,1,O,D,transit,basketball,7:00:00,8:00:00,departure,10
+Anthony Grundy,1,O,D,transit,basketball,7:00:00,8:00:00,departure,10
+Mike K.,1,O,D,transit,basketball,7:05:00,8:00:00,departure,10
+Jeff Capel,1,O,D,transit,basketball,7:05:00,8:00:00,departure,10
+Grant Hill,1,O,D,transit,basketball,7:05:00,8:00:00,departure,10
+Bobby Hurley,1,O,D,transit,basketball,7:05:00,8:00:00,departure,10
+Christian Laettner,1,O,D,transit,basketball,7:05:00,8:00:00,departure,10
+Carlos Boozer,1,O,D,transit,basketball,7:05:00,8:00:00,departure,10
+Jayson Williams,1,O,D,transit,basketball,7:05:00,8:00:00,departure,10
+Shane Battier,1,O,D,transit,basketball,7:05:00,8:00:00,departure,10

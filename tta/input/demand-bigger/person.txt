@@ -1,0 +1,27 @@
+person_id,hh_id
+Rameses,Tarheel
+Michael Jordan,Tarheel
+Jerry Stackhouse,Tarheel
+Dean Smith,Tarheel
+Vince Carter,Tarheel
+Antown Jamison,Tarheel
+Serge Zwikker,Tarheel
+Dante Calabria,Tarheel
+Shammond Williams,Tarheel
+Tuffie,Wolfpack
+Mrs. Wuf,Wolfpack
+Marcus Melvin,Wolfpack
+Archie Miller,Wolfpack
+Julius Hodge,Wolfpack
+Illian Evtimov,Wolfpack
+Scooter Sherrill,Wolfpack
+Josh Powell,Wolfpack
+Anthony Grundy,Wolfpack
+Mike K.,Devil
+Jeff Capel,Devil
+Grant Hill, Devil
+Bobby Hurley, Devil
+Christian Laettner, Devil
+Carlos Boozer, Devil
+Jayson Williams, Devil
+Shane Battier, Devil
