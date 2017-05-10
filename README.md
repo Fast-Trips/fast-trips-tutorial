@@ -23,15 +23,15 @@ There are two main parts to setup for the tutorial:
 
 This tutorial requires a a Python 2.7x setup with the following packages (and their respective supporting packages):  
 
-  * [Jupyter](http://jupyter.org/) notebooks for controlling workflow and serving as the UI  
-  * [Pandas](http://pandas.pydata.org/) for data wrangling  
+  * [Jupyter Notebooks >=4.3.1](http://jupyter.org/) notebooks for controlling workflow and serving as the UI  
+  * [Pandas v0.19.2](http://pandas.pydata.org/) for data wrangling  
+  * [MatPlotLib](https://matplotlib.org/), [Seaborn](http://seaborn.pydata.org/) and [Bokeh v0.12.4](http://bokeh.pydata.org/en/latest/) for plotting results  
+  * [Folium v0.2.1 - not v0.3!](https://github.com/python-visualization/folium) for mapping in leaflet  
   * [Fast-Trips](https://github.com/metropolitantransportationcommission/fast-trips) for the actual transit simulation 
-  * [Seaborn](http://seaborn.pydata.org/) and [Bokeh](http://bokeh.pydata.org/en/latest/) for plotting results  
-  * [Folium](https://github.com/python-visualization/folium) for mapping in leaflet  
-
+  
 If you are interested in installing a development version of Fast-Trips where you have the full GitHub repository and updates you make to the code are reflected in the tutorial, you should following the directions on the [Fast-Trips README](https://github.com/metropolitantransportationcommission/fast-trips).
 
-### Installing Required Software + Fast-Trips into a Virtual Environment Using Anaconda **Recommended Method**
+### Installing Required Software + Fast-Trips into a Virtual Environment Using Anaconda (Recommended Method)
 
 The easiest way to setup the all of this software is use virtual environments so as to not disturb any other Python installations you may have, but you can also choose to use `pip install <package name>` to install all of these packages [ although we haven't tested it in your environment to verify that it will work! ]
 
@@ -41,7 +41,21 @@ Once you have installed Anaconda, you can use the [Anaconda Navigator](https://d
 
 The easiest way is to import the virtual environment `ft_environment.yml` that is included in this repository using Anaconda Navigator.
 
-![Importing Virtual Environment](/img/anaconda-import-environment.png?raw=true "Importing a Virtual Environment")
+![Importing Virtual Environment](/img/anaconda-import-environment.png?raw=true "Importing a Virtual Environment" | width=200)
+
+If for some reason the virtual environment import doesn't work, you can create a new virtual environment and install the following packages on to it either [interactively via the GUI](https://docs.continuum.io/anaconda/navigator-tutorial#step-1-create-and-activate-a-new-environment-for-the-package-you-want-to-use) or by launching a terminal from the virtual environment and using `pip install` as shown below:
+
+![Importing Virtual Environment](/img/terminal-open.png?raw=true "Opening a terminal from a virtual environment" | width=200)
+
+```bash
+pip install notebook
+pip install pandas
+pip install matplotlib
+pip install seaborn
+pip install bokeh==0.12.4
+pip install folium==0.2.1
+pip install fasttrips
+```
 
 ### Downloading or Cloning Tutorial Repository
 
@@ -55,20 +69,20 @@ If you want to download, you can just click the green `clone or download` button
 
 The tutorial can be started by firing up a Jupyter notebook session in your browser from your virtual environment.  This will bring up a file manager.  
 
-![Opening Notebook from Virtual Environment in Anaconda](/img/anaconda-open-notebook.png?raw=true "Opening Notebook from Virtual Environment in Anaconda")
+![Opening Notebook from Virtual Environment in Anaconda](/img/anaconda-open-notebook.png?raw=true "Opening Notebook from Virtual Environment in Anaconda" | width=200)
 
 Navigate to where wherever you downloaded or cloned this repository and click on `Tutorial #1` to start.  When you are done with this tutorial, you can select the next one, etc.
 
-![Navigate to tutorial](/img/navigate-to-tutorial.png?raw=true "Navigate to Tutorial")
+![Navigate to tutorial](/img/navigate-to-tutorial.png?raw=true "Navigate to Tutorial" | width=300)
 
 ## Tutorial Contents
 
 At this time, there are five completed [ or near complete ] lessons and several more planned ones.
 
-  1. Exploring the input formats, running a simple scenario, and reviewing output  
-  2. Exploring trip-based-hyperpath parameters: overlap and dispersion  
-  3. Capacity constraints, iterations, and adding new capacity  
-  4. User classes  
-  5. Building your own scenario from a GTFS feed
+  1. Exploring the input formats, running a simple scenario, and reviewing output   
+  2. Capacity constraints, iterations, and adding new capacity  
+  3. User classes  
+  4. Building your own scenario from a GTFS feed
+  5. Exploring trip-based-hyperpath parameters: overlap and dispersion 
   
 There are an accompanying presentation and lecture notes that will be made available shortly.
