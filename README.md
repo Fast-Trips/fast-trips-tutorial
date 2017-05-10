@@ -6,7 +6,9 @@
 
 **Memory:** Fast-Trips does use some RAM, so don't try and run full-scale regional transit demand without 48GB or similar.  This can be somewhat throttled by using the "chunking" feature.
 
-**Software"** Requirements and setup instructions are discussed in the next section.  
+**Software:** Requirements and setup instructions are discussed in the next section.  
+
+**Prerequisites:** It is helpful to have a foundation in Python and understanding of the Pandas package.  
 
 ## Software Setup
 
