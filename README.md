@@ -53,11 +53,11 @@ If you want to download, you can just click the green `clone or download` button
 
 The tutorial can be started by firing up a Jupyter notebook session in your browser from your virtual environment.  This will bring up a file manager.  
 
-![Opening Notebook from Virtual Environment in Anaconda](/img/anaconda-open-notebook?raw=true "Opening Notebook from Virtual Environment in Anaconda")
+![Opening Notebook from Virtual Environment in Anaconda](/img/anaconda-open-notebook.png?raw=true "Opening Notebook from Virtual Environment in Anaconda")
 
 Navigate to where wherever you downloaded or cloned this repository and click on `Tutorial #1` to start.  When you are done with this tutorial, you can select the next one, etc.
 
-![Navigate to tutorial](/img/navigate-to-tutorial?raw=true "Navigate to Tutorial")
+![Navigate to tutorial](/img/navigate-to-tutorial.png?raw=true "Navigate to Tutorial")
 
 ## Tutorial Contents
 
@@ -69,4 +69,4 @@ At this time, there are five completed [ or near complete ] lessons and several 
   4. User classes  
   5. Building your own scenario from a GTFS feed
   
-There is an accompanying presentation and lecture notes that will be made available shortly.
+There are an accompanying presentation and lecture notes that will be made available shortly.
