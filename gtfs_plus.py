@@ -44,7 +44,7 @@ def create_tranfers(schedule,max_xfer_dist = 0.5):
     for key,val in schedule.stops.iteritems():
         stops[key]=(val.stop_lat, val.stop_lon)
     
-    pair = list(combinations(stops, r=2))
+    pair = list(set(list(combinations(stops, r=2))))
     #print "PAIR",pair
     
     #get xfer distance between each combination
