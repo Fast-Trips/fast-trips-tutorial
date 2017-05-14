@@ -114,7 +114,7 @@ def plot_choiceset_links(linkfile_df,cost="sim_cost",paths=False):
 
 
 
-def choice_set_facet_plot_single_pax(paths_df, pax="", value="probability"):
+def choice_set_facet_plot_single_pax(paths_df, pax="", value="probability", chosen=False):
     import seaborn as sns
     import matplotlib.pyplot as plt
 
@@ -122,8 +122,10 @@ def choice_set_facet_plot_single_pax(paths_df, pax="", value="probability"):
     if value=="sim_cost":
         paths_df.loc[paths_df["sim_cost"]>10000,"sim_cost"] = -1
     
-    
-    paths_df = paths_df[(paths_df["person_id"]==pax) & (paths_df["simulation_iteration"]==1)]
+    if chosen:
+        paths_df = paths_df[paths_df["person_id"]==pax]
+    else:
+        paths_df = paths_df[(paths_df["person_id"]==pax) & (paths_df["simulation_iteration"]==1)]
     
     description = paths_df.description.unique()
     
@@ -155,5 +157,34 @@ def choice_set_facet_plot_single_iter(paths_df, pax_list=None, value="probabilit
     g.set_xticklabels(rotation=30)
     g.add_legend()
     
+def path_link_cost_single_pax(links_df, pax="", value="sim_cost",iteration=1):
 
+    import seaborn as sns
+    import matplotlib.pyplot as plt
+    
+    links_df = links_df[links_df['person_id']==pax]
+
+    links_df=links_df[links_df["iteration"]==iteration]
+    
+    sns.set(style="whitegrid")
+    g = sns.FacetGrid(links_df, row="pathnum",
+                     palette = "muted", size=4, aspect=4)
+    g.map(sns.barplot,"linknum", value, "linkmode", palette= "muted")
+    g.add_legend()
+    
+def path_choice_single_pax(links_df, pax="", value="sim_cost_L",iteration=1):
+
+    import seaborn as sns
+    import matplotlib.pyplot as plt
+    
+    links_df = links_df[links_df['person_id']==pax]
+
+    links_df=links_df[links_df["iteration"]==iteration]
+    
+    sns.set(style="whitegrid")
+    g = sns.FacetGrid(links_df, row="description",
+                     palette = "muted", size=4, aspect=4)
+    g.map(sns.barplot,"linknum", value, "linkmode", palette= "muted")
+    g.add_legend()
+    
     
