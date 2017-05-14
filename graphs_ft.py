@@ -110,3 +110,50 @@ def plot_choiceset_links(linkfile_df,cost="sim_cost",paths=False):
     
 
     ##TODO add nodes
+
+
+
+
+def choice_set_facet_plot_single_pax(paths_df, pax="", value="probability"):
+    import seaborn as sns
+    import matplotlib.pyplot as plt
+
+    paths_df[value].fillna(-1,inplace=True)
+    if value=="sim_cost":
+        paths_df.loc[paths_df["sim_cost"]>10000,"sim_cost"] = -1
+    
+    
+    paths_df = paths_df[(paths_df["person_id"]==pax) & (paths_df["simulation_iteration"]==1)]
+    
+    description = paths_df.description.unique()
+    
+    sns.set(style="whitegrid")
+    g = sns.FacetGrid(paths_df, row="iteration",
+                     palette= "muted", size=4, aspect=4)
+    g.map(sns.barplot, 'description', value,"pathfinding_iteration",order=description,palette= "muted")
+    g.set_xticklabels(rotation=30)
+    g.add_legend()
+    
+
+def choice_set_facet_plot_single_iter(paths_df, pax_list=None, value="probability",iteration=1):
+
+    import seaborn as sns
+    import matplotlib.pyplot as plt
+    
+    paths_df[value].fillna(-1,inplace=True)
+    if pax_list:
+        paths_df = paths_df[paths_df['person_id'].isin(pax_list)]
+    
+    paths_df=paths_df[paths_df["iteration"]==iteration]
+    
+    description = paths_df.description.unique()
+    
+    sns.set(style="whitegrid")
+    g = sns.FacetGrid(paths_df, row="person_id",
+                     palette= "muted", size=4, aspect=4)
+    g.map(sns.barplot, 'description', value,"pathfinding_iteration",order=description,palette= "muted")
+    g.set_xticklabels(rotation=30)
+    g.add_legend()
+    
+
+    
