@@ -1,6 +1,7 @@
 # configuration for fasttrips
 [fasttrips]
 simulation                    = True
+network_build_date            = 05/24/2017
 output_passenger_trajectories = True
 create_skims                  = False
 prepend_route_id_to_trip_id   = True
