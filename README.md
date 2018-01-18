@@ -1,5 +1,8 @@
 # Fast-Trips Tutorial
 
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/Fast-Trips/fast-trips-tutorial/master)
+
+
 ## Requirements
 
 **Operating System:** This has been tested with Windows 10 and Mac OS Sierra (v10.12.3).  There is no reason that it wouldn't work on LINUX, but we have not pre-compiled the binaries so you will have to build from source.
