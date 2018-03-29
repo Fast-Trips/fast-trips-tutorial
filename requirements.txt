@@ -1,0 +1,6 @@
+pandas >= 0.22
+partridge==0.6.0.dev1
+numpy
+bqplot >= 0.10.5  
+networkx >= 2.0
+ipywidgets >= 7.1.2
