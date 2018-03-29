@@ -1,0 +1,43 @@
+[fasttrips]
+input_demand_dir = /Users/elizabeth/Documents/urbanlabs/MTC/SHRP2/tutorial/tta/input/demand-bigger
+input_network_dir = /Users/elizabeth/Documents/urbanlabs/MTC/SHRP2/tutorial/tta/input/network-added-route
+input_weights = /Users/elizabeth/Documents/urbanlabs/MTC/SHRP2/tutorial/tta/input/demand-bigger/pathweight_ft.txt
+run_config = /Users/elizabeth/Documents/urbanlabs/MTC/SHRP2/tutorial/tta/input/demand-bigger/config_ft.txt
+max_iterations = 1
+simulation = True
+output_dir = /Users/elizabeth/Documents/urbanlabs/MTC/SHRP2/tutorial/not-segmented-output
+output_passenger_trajectories = True
+output_pathset_per_sim_iter = False
+create_skims = False
+skim_start_time = 05:00
+skim_end_time = 10:00
+capacity_constraint = True
+skip_person_ids = None
+trace_ids = [('Tuffie', '1')]
+debug_trace_only = False
+debug_num_trips = -1
+debug_output_columns = True
+fare_zone_symmetry = False
+prepend_route_id_to_trip_id = True
+number_of_processes = 1
+bump_buffer = 5.000000
+bump_one_at_a_time = False
+
+[pathfinding]
+max_num_paths = -1
+min_path_probability = 0.005000
+min_transfer_penalty = 1.000000
+overlap_chunk_size = 500
+overlap_scale_parameter = 1.000000
+overlap_split_transit = False
+overlap_variable = count
+pathfinding_type = stochastic
+pathweights_fixed_width = False
+stochastic_dispersion = 0.500000
+stochastic_max_stop_process_count = -1
+stochastic_pathset_size = 1000
+time_window = 30.000000
+transfer_fare_ignore_pathfinding = False
+transfer_fare_ignore_pathenum = False
+user_class_function = generic_user_class
+

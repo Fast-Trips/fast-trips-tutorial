@@ -1,0 +1,196 @@
+2017-05-11 13:30:15 MainProcess Reading /Users/elizabeth/Documents/urbanlabs/MTC/SHRP2/tutorial/tta/input/demand-bigger/config_ft.py
+2017-05-11 13:30:15 MainProcess PathSet.CONFIGURED_FUNCTIONS = {'generic_user_class': <function generic_user_class at 0x10fbaaaa0>, 'user_class': <function user_class at 0x1100e4c80>}
+2017-05-11 13:30:15 MainProcess Reading configuration file /Users/elizabeth/Documents/urbanlabs/MTC/SHRP2/tutorial/tta/input/demand-bigger/config_ft.txt
+2017-05-11 13:30:15 MainProcess Reading GTFS schedule
+2017-05-11 13:30:15 MainProcess Read       8           stops from                 stops.txt,              stops_ft.txt
+2017-05-11 13:30:15 MainProcess Read       4          routes from                routes.txt,             routes_ft.txt
+2017-05-11 13:30:15 MainProcess Read       1        agencies from                agency.txt
+2017-05-11 13:30:15 MainProcess Read       0 fare attributes from       fare_attributes.txt
+2017-05-11 13:30:15 MainProcess Read       0      fare rules from            fare_rules.txt,       fare_periods_ft.txt
+2017-05-11 13:30:15 MainProcess Read       2       transfers from             transfers.txt,          transfers_ft.txt
+2017-05-11 13:30:15 MainProcess Read       1        vehicles from           vehicles_ft.txt
+2017-05-11 13:30:15 MainProcess Read      10           trips from                 trips.txt,              trips_ft.txt
+2017-05-11 13:30:16 MainProcess Read       1 service periods from              calendar.txt
+2017-05-11 13:30:16 MainProcess Adding shape_dist_traveled in miles
+2017-05-11 13:30:16 MainProcess Read      20      stop times from            stop_times.txt,         stop_times_ft.txt
+2017-05-11 13:30:16 MainProcess Read       5     walk access from        walk_access_ft.txt
+2017-05-11 13:30:16 MainProcess Read       0            DAPs from drive_access_points_ft.txt
+2017-05-11 13:30:16 MainProcess The following 3 stop ids have no walk access: 
+  stop_id  taz
+1       B  NaN
+4      B1  NaN
+5      B2  NaN
+2017-05-11 13:30:16 MainProcess -------- Reading demand --------
+2017-05-11 13:30:16 MainProcess Capacity constraint? 1
+2017-05-11 13:30:16 MainProcess Read      26    person trips from             trip_list.txt
+2017-05-11 13:30:16 MainProcess Read      26         persons from                person.txt
+2017-05-11 13:30:16 MainProcess Read       3      households from             household.txt
+2017-05-11 13:30:16 MainProcess Have 26 person trips
+2017-05-11 13:30:16 MainProcess Wrote veh_trips_df dataframe to /Users/elizabeth/Documents/urbanlabs/MTC/SHRP2/tutorial/output/segmentation/veh_trips.csv
+2017-05-11 13:30:16 MainProcess ***************************** ITERATION 1 PATHFINDING ITERATION 1 **************************************
+2017-05-11 13:30:16 MainProcess **************************** GENERATING PATHS **********************************************************
+2017-05-11 13:30:16 MainProcess Finding pathsets for 26 trips
+2017-05-11 13:30:16 MainProcess       1 paths sought,      1 paths found of 26 paths total.  Time elapsed:  0h: 0m: 0s
+2017-05-11 13:30:16 MainProcess       2 paths sought,      2 paths found of 26 paths total.  Time elapsed:  0h: 0m: 0s
+2017-05-11 13:30:16 MainProcess       3 paths sought,      3 paths found of 26 paths total.  Time elapsed:  0h: 0m: 0s
+2017-05-11 13:30:16 MainProcess       4 paths sought,      4 paths found of 26 paths total.  Time elapsed:  0h: 0m: 0s
+2017-05-11 13:30:16 MainProcess       5 paths sought,      5 paths found of 26 paths total.  Time elapsed:  0h: 0m: 0s
+2017-05-11 13:30:16 MainProcess       6 paths sought,      6 paths found of 26 paths total.  Time elapsed:  0h: 0m: 0s
+2017-05-11 13:30:17 MainProcess       7 paths sought,      7 paths found of 26 paths total.  Time elapsed:  0h: 0m: 0s
+2017-05-11 13:30:17 MainProcess       8 paths sought,      8 paths found of 26 paths total.  Time elapsed:  0h: 0m: 0s
+2017-05-11 13:30:17 MainProcess       9 paths sought,      9 paths found of 26 paths total.  Time elapsed:  0h: 0m: 0s
+2017-05-11 13:30:17 MainProcess      10 paths sought,     10 paths found of 26 paths total.  Time elapsed:  0h: 0m: 0s
+2017-05-11 13:30:17 MainProcess      11 paths sought,     11 paths found of 26 paths total.  Time elapsed:  0h: 0m: 0s
+2017-05-11 13:30:17 MainProcess      12 paths sought,     12 paths found of 26 paths total.  Time elapsed:  0h: 0m: 0s
+2017-05-11 13:30:17 MainProcess      13 paths sought,     13 paths found of 26 paths total.  Time elapsed:  0h: 0m: 0s
+2017-05-11 13:30:17 MainProcess      14 paths sought,     14 paths found of 26 paths total.  Time elapsed:  0h: 0m: 0s
+2017-05-11 13:30:17 MainProcess      15 paths sought,     15 paths found of 26 paths total.  Time elapsed:  0h: 0m: 0s
+2017-05-11 13:30:17 MainProcess      16 paths sought,     16 paths found of 26 paths total.  Time elapsed:  0h: 0m: 0s
+2017-05-11 13:30:17 MainProcess      17 paths sought,     17 paths found of 26 paths total.  Time elapsed:  0h: 0m: 0s
+2017-05-11 13:30:17 MainProcess      18 paths sought,     18 paths found of 26 paths total.  Time elapsed:  0h: 0m: 0s
+2017-05-11 13:30:17 MainProcess      19 paths sought,     19 paths found of 26 paths total.  Time elapsed:  0h: 0m: 0s
+2017-05-11 13:30:17 MainProcess      20 paths sought,     20 paths found of 26 paths total.  Time elapsed:  0h: 0m: 0s
+2017-05-11 13:30:17 MainProcess      21 paths sought,     21 paths found of 26 paths total.  Time elapsed:  0h: 0m: 0s
+2017-05-11 13:30:17 MainProcess      22 paths sought,     22 paths found of 26 paths total.  Time elapsed:  0h: 0m: 0s
+2017-05-11 13:30:17 MainProcess      23 paths sought,     23 paths found of 26 paths total.  Time elapsed:  0h: 0m: 0s
+2017-05-11 13:30:17 MainProcess      24 paths sought,     24 paths found of 26 paths total.  Time elapsed:  0h: 0m: 0s
+2017-05-11 13:30:17 MainProcess      25 paths sought,     25 paths found of 26 paths total.  Time elapsed:  0h: 0m: 0s
+2017-05-11 13:30:17 MainProcess      26 paths sought,     26 paths found of 26 paths total.  Time elapsed:  0h: 0m: 0s
+2017-05-11 13:30:17 MainProcess Finished finding     26 passenger paths.  Time elapsed:  0h: 0m: 0s
+2017-05-11 13:30:17 MainProcess Wrote pathset_paths_df dataframe to /Users/elizabeth/Documents/urbanlabs/MTC/SHRP2/tutorial/output/segmentation/pathsfound_paths.csv
+2017-05-11 13:30:17 MainProcess Wrote pathset_links_df dataframe to /Users/elizabeth/Documents/urbanlabs/MTC/SHRP2/tutorial/output/segmentation/pathsfound_links.csv
+2017-05-11 13:30:17 MainProcess Wrote performance_df dataframe to /Users/elizabeth/Documents/urbanlabs/MTC/SHRP2/tutorial/output/segmentation/ft_output_performance.csv
+2017-05-11 13:30:17 MainProcess ***************************** ITERATION 1 PATHFINDING ITERATION 1 *** SIMULATING ***********************
+2017-05-11 13:30:17 MainProcess Simulation Iteration 0
+2017-05-11 13:30:17 MainProcess   Step 1. Find out board/alight times for all pathset links from vehicle times
+2017-05-11 13:30:17 MainProcess   Step 2. Flag missed transfer links and paths in the pathsets
+2017-05-11 13:30:17 MainProcess           flag_missed_transfers found 0 missed transfer trip legs for 0 paths
+2017-05-11 13:30:17 MainProcess   Step 3. Calculate costs and probabilities for all pathset paths
+2017-05-11 13:30:17 MainProcess           Adding fares to pathset
+2017-05-11 13:30:18 MainProcess           Calculating overlap for chunk    1/   1 (len     78);  mem_use=Uknown; please install python package psutil
+2017-05-11 13:30:18 MainProcess   Step 4. Choose a path for each passenger from their pathset
+2017-05-11 13:30:18 MainProcess           Have     26 total passenger-trips, with      0 chosen paths,      0 fully rejected and     26 needing a choice
+2017-05-11 13:30:18 MainProcess           Chose 26 out of 26 paths from the pathsets => total chosen 26
+2017-05-11 13:30:18 MainProcess   Step 5. Put passenger paths on transit vehicles to get vehicle boards/alights/load and assess capacity constraints
+2017-05-11 13:30:18 MainProcess   Step 5.1 Put passengers on transit vehicles.
+2017-05-11 13:30:18 MainProcess   Step 5.2 Capacity constraints on transit vehicles.
+2017-05-11 13:30:18 MainProcess           Bumping one at a time? false
+2017-05-11 13:30:18 MainProcess           Need to bump 16 passengers from 1 trip-stops
+2017-05-11 13:30:18 MainProcess         -> completed loop bump_iter 0 and bumped 16 chosen paths
+2017-05-11 13:30:18 MainProcess   Step 5.1 Put passengers on transit vehicles.
+2017-05-11 13:30:18 MainProcess   Step 5.2 Capacity constraints on transit vehicles.
+2017-05-11 13:30:18 MainProcess           No over-capacity vehicles
+2017-05-11 13:30:18 MainProcess   Step 6. Update dwell and travel times for transit vehicles
+2017-05-11 13:30:18 MainProcess Simulation Iteration 1
+2017-05-11 13:30:18 MainProcess   Step 1. Find out board/alight times for all pathset links from vehicle times
+2017-05-11 13:30:18 MainProcess   Step 2. Flag missed transfer links and paths in the pathsets
+2017-05-11 13:30:19 MainProcess           flag_missed_transfers found 0 missed transfer trip legs for 0 paths
+2017-05-11 13:30:19 MainProcess   Step 3. Calculate costs and probabilities for all pathset paths
+2017-05-11 13:30:19 MainProcess           Adding fares to pathset
+2017-05-11 13:30:19 MainProcess           Calculating overlap for chunk    1/   1 (len     78);  mem_use=Uknown; please install python package psutil
+2017-05-11 13:30:19 MainProcess   Step 4. Choose a path for each passenger from their pathset
+2017-05-11 13:30:19 MainProcess           Rejecting 16 previously chosen paths for huge costs
+2017-05-11 13:30:19 MainProcess           Have     26 total passenger-trips, with     10 chosen paths,     16 fully rejected and      0 needing a choice
+2017-05-11 13:30:19 MainProcess   Step 5. Put passenger paths on transit vehicles to get vehicle boards/alights/load and assess capacity constraints
+2017-05-11 13:30:19 MainProcess   Step 5.1 Put passengers on transit vehicles.
+2017-05-11 13:30:19 MainProcess   Step 5.2 Capacity constraints on transit vehicles.
+2017-05-11 13:30:19 MainProcess           Bumping one at a time? false
+2017-05-11 13:30:20 MainProcess           No over-capacity vehicles
+2017-05-11 13:30:20 MainProcess   Step 6. Update dwell and travel times for transit vehicles
+2017-05-11 13:30:20 MainProcess   No more path choices to make => Ending simulation loop
+2017-05-11 13:30:20 MainProcess Wrote pathset_paths_df dataframe to /Users/elizabeth/Documents/urbanlabs/MTC/SHRP2/tutorial/output/segmentation/pathset_paths.csv
+2017-05-11 13:30:20 MainProcess Wrote pathset_links_df dataframe to /Users/elizabeth/Documents/urbanlabs/MTC/SHRP2/tutorial/output/segmentation/pathset_links.csv
+2017-05-11 13:30:20 MainProcess Wrote chosen_links_df dataframe to /Users/elizabeth/Documents/urbanlabs/MTC/SHRP2/tutorial/output/segmentation/chosenpaths_links.csv
+2017-05-11 13:30:20 MainProcess Wrote chosen_paths_df dataframe to /Users/elizabeth/Documents/urbanlabs/MTC/SHRP2/tutorial/output/segmentation/chosenpaths_paths.csv
+2017-05-11 13:30:20 MainProcess Appended veh_trips_df dataframe to /Users/elizabeth/Documents/urbanlabs/MTC/SHRP2/tutorial/output/segmentation/veh_trips.csv
+2017-05-11 13:30:20 MainProcess 
+2017-05-11 13:30:20 MainProcess   Length of trip list:               26
+2017-05-11 13:30:20 MainProcess   Number of pathsets found:          26
+2017-05-11 13:30:20 MainProcess   ARRIVED PASSENGERS:                10
+2017-05-11 13:30:20 MainProcess   MISSED PASSENGERS:                 16
+2017-05-11 13:30:20 MainProcess   CAPACITY GAP:                61.53846
+2017-05-11 13:30:20 MainProcess ***************************** ITERATION 1 PATHFINDING ITERATION 2 **************************************
+2017-05-11 13:30:20 MainProcess **************************** GENERATING PATHS **********************************************************
+2017-05-11 13:30:20 MainProcess Finding paths for trips for those that haven't arrived yet
+2017-05-11 13:30:20 MainProcess Finding pathsets for 16 trips
+2017-05-11 13:30:20 MainProcess       1 paths sought,      1 paths found of 16 paths total.  Time elapsed:  0h: 0m: 0s
+2017-05-11 13:30:20 MainProcess       2 paths sought,      2 paths found of 16 paths total.  Time elapsed:  0h: 0m: 0s
+2017-05-11 13:30:20 MainProcess       3 paths sought,      3 paths found of 16 paths total.  Time elapsed:  0h: 0m: 0s
+2017-05-11 13:30:20 MainProcess       4 paths sought,      4 paths found of 16 paths total.  Time elapsed:  0h: 0m: 0s
+2017-05-11 13:30:20 MainProcess       5 paths sought,      5 paths found of 16 paths total.  Time elapsed:  0h: 0m: 0s
+2017-05-11 13:30:20 MainProcess       6 paths sought,      6 paths found of 16 paths total.  Time elapsed:  0h: 0m: 0s
+2017-05-11 13:30:20 MainProcess       7 paths sought,      7 paths found of 16 paths total.  Time elapsed:  0h: 0m: 0s
+2017-05-11 13:30:20 MainProcess       8 paths sought,      8 paths found of 16 paths total.  Time elapsed:  0h: 0m: 0s
+2017-05-11 13:30:20 MainProcess       9 paths sought,      9 paths found of 16 paths total.  Time elapsed:  0h: 0m: 0s
+2017-05-11 13:30:20 MainProcess      10 paths sought,     10 paths found of 16 paths total.  Time elapsed:  0h: 0m: 0s
+2017-05-11 13:30:20 MainProcess      11 paths sought,     11 paths found of 16 paths total.  Time elapsed:  0h: 0m: 0s
+2017-05-11 13:30:20 MainProcess      12 paths sought,     12 paths found of 16 paths total.  Time elapsed:  0h: 0m: 0s
+2017-05-11 13:30:20 MainProcess      13 paths sought,     13 paths found of 16 paths total.  Time elapsed:  0h: 0m: 0s
+2017-05-11 13:30:20 MainProcess      14 paths sought,     14 paths found of 16 paths total.  Time elapsed:  0h: 0m: 0s
+2017-05-11 13:30:20 MainProcess      15 paths sought,     15 paths found of 16 paths total.  Time elapsed:  0h: 0m: 0s
+2017-05-11 13:30:20 MainProcess      16 paths sought,     16 paths found of 16 paths total.  Time elapsed:  0h: 0m: 0s
+2017-05-11 13:30:20 MainProcess Finished finding     16 passenger paths.  Time elapsed:  0h: 0m: 0s
+2017-05-11 13:30:20 MainProcess Appended pathset_paths_df dataframe to /Users/elizabeth/Documents/urbanlabs/MTC/SHRP2/tutorial/output/segmentation/pathsfound_paths.csv
+2017-05-11 13:30:20 MainProcess Appended pathset_links_df dataframe to /Users/elizabeth/Documents/urbanlabs/MTC/SHRP2/tutorial/output/segmentation/pathsfound_links.csv
+2017-05-11 13:30:20 MainProcess Appended performance_df dataframe to /Users/elizabeth/Documents/urbanlabs/MTC/SHRP2/tutorial/output/segmentation/ft_output_performance.csv
+2017-05-11 13:30:21 MainProcess ***************************** ITERATION 1 PATHFINDING ITERATION 2 *** SIMULATING ***********************
+2017-05-11 13:30:21 MainProcess Simulation Iteration 0
+2017-05-11 13:30:21 MainProcess   Step 1. Find out board/alight times for all pathset links from vehicle times
+2017-05-11 13:30:21 MainProcess   Step 2. Flag missed transfer links and paths in the pathsets
+2017-05-11 13:30:21 MainProcess           flag_missed_transfers found 0 missed transfer trip legs for 0 paths
+2017-05-11 13:30:21 MainProcess   Step 3. Calculate costs and probabilities for all pathset paths
+2017-05-11 13:30:21 MainProcess           Adding fares to pathset
+2017-05-11 13:30:21 MainProcess           Calculating overlap for chunk    1/   1 (len    190);  mem_use=Uknown; please install python package psutil
+2017-05-11 13:30:21 MainProcess   Step 4. Choose a path for each passenger from their pathset
+2017-05-11 13:30:21 MainProcess           Rejecting 0 previously chosen paths for huge costs
+2017-05-11 13:30:21 MainProcess           Have     26 total passenger-trips, with     10 chosen paths,      0 fully rejected and     16 needing a choice
+2017-05-11 13:30:22 MainProcess           Chose 16 out of 26 paths from the pathsets => total chosen 26
+2017-05-11 13:30:22 MainProcess   Step 5. Put passenger paths on transit vehicles to get vehicle boards/alights/load and assess capacity constraints
+2017-05-11 13:30:22 MainProcess   Step 5.1 Put passengers on transit vehicles.
+2017-05-11 13:30:22 MainProcess   Step 5.2 Capacity constraints on transit vehicles.
+2017-05-11 13:30:22 MainProcess           Bumping one at a time? false
+2017-05-11 13:30:22 MainProcess           No over-capacity vehicles
+2017-05-11 13:30:22 MainProcess   Step 6. Update dwell and travel times for transit vehicles
+2017-05-11 13:30:22 MainProcess Simulation Iteration 1
+2017-05-11 13:30:22 MainProcess   Step 1. Find out board/alight times for all pathset links from vehicle times
+2017-05-11 13:30:22 MainProcess   Step 2. Flag missed transfer links and paths in the pathsets
+2017-05-11 13:30:22 MainProcess           flag_missed_transfers found 0 missed transfer trip legs for 0 paths
+2017-05-11 13:30:22 MainProcess   Step 3. Calculate costs and probabilities for all pathset paths
+2017-05-11 13:30:22 MainProcess           Adding fares to pathset
+2017-05-11 13:30:23 MainProcess           Calculating overlap for chunk    1/   1 (len    190);  mem_use=Uknown; please install python package psutil
+2017-05-11 13:30:23 MainProcess   Step 4. Choose a path for each passenger from their pathset
+2017-05-11 13:30:23 MainProcess           Rejecting 0 previously chosen paths for huge costs
+2017-05-11 13:30:23 MainProcess           Have     26 total passenger-trips, with     26 chosen paths,      0 fully rejected and      0 needing a choice
+2017-05-11 13:30:23 MainProcess   Step 5. Put passenger paths on transit vehicles to get vehicle boards/alights/load and assess capacity constraints
+2017-05-11 13:30:23 MainProcess   Step 5.1 Put passengers on transit vehicles.
+2017-05-11 13:30:23 MainProcess   Step 5.2 Capacity constraints on transit vehicles.
+2017-05-11 13:30:23 MainProcess           Bumping one at a time? false
+2017-05-11 13:30:23 MainProcess           No over-capacity vehicles
+2017-05-11 13:30:23 MainProcess   Step 6. Update dwell and travel times for transit vehicles
+2017-05-11 13:30:23 MainProcess   No more path choices to make => Ending simulation loop
+2017-05-11 13:30:23 MainProcess Appended pathset_paths_df dataframe to /Users/elizabeth/Documents/urbanlabs/MTC/SHRP2/tutorial/output/segmentation/pathset_paths.csv
+2017-05-11 13:30:23 MainProcess Appended pathset_links_df dataframe to /Users/elizabeth/Documents/urbanlabs/MTC/SHRP2/tutorial/output/segmentation/pathset_links.csv
+2017-05-11 13:30:23 MainProcess Appended chosen_links_df dataframe to /Users/elizabeth/Documents/urbanlabs/MTC/SHRP2/tutorial/output/segmentation/chosenpaths_links.csv
+2017-05-11 13:30:23 MainProcess Appended chosen_paths_df dataframe to /Users/elizabeth/Documents/urbanlabs/MTC/SHRP2/tutorial/output/segmentation/chosenpaths_paths.csv
+2017-05-11 13:30:23 MainProcess Appended veh_trips_df dataframe to /Users/elizabeth/Documents/urbanlabs/MTC/SHRP2/tutorial/output/segmentation/veh_trips.csv
+2017-05-11 13:30:23 MainProcess 
+2017-05-11 13:30:23 MainProcess   Length of trip list:               26
+2017-05-11 13:30:23 MainProcess   Number of pathsets found:          26
+2017-05-11 13:30:23 MainProcess   ARRIVED PASSENGERS:                26
+2017-05-11 13:30:23 MainProcess   MISSED PASSENGERS:                  0
+2017-05-11 13:30:23 MainProcess   CAPACITY GAP:                 0.00000
+2017-05-11 13:30:23 MainProcess ***************************** ITERATION 1 PATHFINDING ITERATION 3 **************************************
+2017-05-11 13:30:23 MainProcess **************************** GENERATING PATHS **********************************************************
+2017-05-11 13:30:23 MainProcess Finding paths for trips for those that haven't arrived yet
+2017-05-11 13:30:23 MainProcess Finding pathsets for 0 trips
+2017-05-11 13:30:23 MainProcess No rows of pathset_paths_df dataframe to write to /Users/elizabeth/Documents/urbanlabs/MTC/SHRP2/tutorial/output/segmentation/pathsfound_paths.csv
+2017-05-11 13:30:23 MainProcess No rows of pathset_links_df dataframe to write to /Users/elizabeth/Documents/urbanlabs/MTC/SHRP2/tutorial/output/segmentation/pathsfound_links.csv
+2017-05-11 13:30:23 MainProcess No rows of performance_df dataframe to write to /Users/elizabeth/Documents/urbanlabs/MTC/SHRP2/tutorial/output/segmentation/ft_output_performance.csv
+2017-05-11 13:30:23 MainProcess Appended veh_trips_df dataframe to /Users/elizabeth/Documents/urbanlabs/MTC/SHRP2/tutorial/output/segmentation/veh_trips.csv
+2017-05-11 13:30:23 MainProcess 
+2017-05-11 13:30:23 MainProcess   Length of trip list:               26
+2017-05-11 13:30:23 MainProcess   Number of pathsets found:          26
+2017-05-11 13:30:24 MainProcess   ARRIVED PASSENGERS:                26
+2017-05-11 13:30:24 MainProcess   MISSED PASSENGERS:                  0
+2017-05-11 13:30:24 MainProcess   CAPACITY GAP:                 0.00000
+2017-05-11 13:30:24 MainProcess Successfully completed!

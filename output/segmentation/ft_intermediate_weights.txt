@@ -1,0 +1,15 @@
+user_class purpose demand_mode_type demand_mode supply_mode_num weight_name weight_value
+other basketball access walk 101 time_min 2
+other basketball egress walk 201 time_min 2
+other basketball transfer transfer 1 transfer_penalty 3
+other basketball transfer transfer 1 walk_time_min 2
+other basketball transit transit 301 at_capacity 9999
+other basketball transit transit 301 in_vehicle_time_min 1
+other basketball transit transit 301 wait_time_min 2
+xfer_sensitive basketball access walk 101 time_min 2
+xfer_sensitive basketball egress walk 201 time_min 2
+xfer_sensitive basketball transfer transfer 1 transfer_penalty 6
+xfer_sensitive basketball transfer transfer 1 walk_time_min 4
+xfer_sensitive basketball transit transit 301 at_capacity 9999
+xfer_sensitive basketball transit transit 301 in_vehicle_time_min 1
+xfer_sensitive basketball transit transit 301 wait_time_min 2

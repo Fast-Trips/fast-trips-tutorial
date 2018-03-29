@@ -5,7 +5,7 @@ Michael Jordan,1,O,D,transit,basketball,7:00:00,8:00:00,departure,10
 Jerry Stackhouse,1,O,D,transit,basketball,7:00:00,8:00:00,departure,10
 Dean Smith,1,O,D,transit,basketball,7:00:00,8:00:00,departure,10
 Vince Carter,1,O,D,transit,basketball,7:00:00,8:00:00,departure,10
-Antown Jamison,1,O,D,transit,basketball,7:00:00,8:00:00,departure,10
+Antawn Jamison,1,O,D,transit,basketball,7:00:00,8:00:00,departure,10
 Serge Zwikker,1,O,D,transit,basketball,7:00:00,8:00:00,departure,10
 Dante Calabria,1,O,D,transit,basketball,7:00:00,8:00:00,departure,10
 Shammond Williams,1,O,D,transit,basketball,7:00:00,8:00:00,departure,10

@@ -1,0 +1,43 @@
+iteration,label iterations,max stop process count,num labeled stops,pathfinding_iteration,pathfinding_status,person_id,person_trip_id,private usage bytes,process number,time enumerating,time enumerating milliseconds,time labeling,time labeling milliseconds,traced,working set bytes
+1,14,1,9,1,0,Tuffie,1,0,0,0 days 00:00:00.212000000,212,0 days 00:00:00.001000000,1,True,0
+1,14,1,9,1,0,Rameses,1,0,0,0 days 00:00:00.005000000,5,0 days 00:00:00.000000000,0,False,0
+1,14,1,9,1,0,Michael Jordan,1,0,0,0 days 00:00:00.009000000,9,0 days 00:00:00.000000000,0,False,0
+1,14,1,9,1,0,Jerry Stackhouse,1,0,0,0 days 00:00:00.010000000,10,0 days 00:00:00.000000000,0,False,0
+1,14,1,9,1,0,Dean Smith,1,0,0,0 days 00:00:00.011000000,11,0 days 00:00:00.000000000,0,False,0
+1,14,1,9,1,0,Vince Carter,1,0,0,0 days 00:00:00.011000000,11,0 days 00:00:00.000000000,0,False,0
+1,14,1,9,1,0,Antown Jamison,1,0,0,0 days 00:00:00.011000000,11,0 days 00:00:00.000000000,0,False,0
+1,14,1,9,1,0,Serge Zwikker,1,0,0,0 days 00:00:00.010000000,10,0 days 00:00:00.000000000,0,False,0
+1,14,1,9,1,0,Dante Calabria,1,0,0,0 days 00:00:00.010000000,10,0 days 00:00:00.000000000,0,False,0
+1,14,1,9,1,0,Shammond Williams,1,0,0,0 days 00:00:00.007000000,7,0 days 00:00:00.000000000,0,False,0
+1,14,1,9,1,0,Mrs. Wuf,1,0,0,0 days 00:00:00.009000000,9,0 days 00:00:00.000000000,0,False,0
+1,14,1,9,1,0,Marcus Melvin,1,0,0,0 days 00:00:00.009000000,9,0 days 00:00:00.000000000,0,False,0
+1,14,1,9,1,0,Archie Miller,1,0,0,0 days 00:00:00.011000000,11,0 days 00:00:00.000000000,0,False,0
+1,14,1,9,1,0,Julius Hodge,1,0,0,0 days 00:00:00.007000000,7,0 days 00:00:00.000000000,0,False,0
+1,14,1,9,1,0,Illian Evtimov,1,0,0,0 days 00:00:00.011000000,11,0 days 00:00:00.000000000,0,False,0
+1,14,1,9,1,0,Scooter Sherrill,1,0,0,0 days 00:00:00.007000000,7,0 days 00:00:00.000000000,0,False,0
+1,14,1,9,1,0,Josh Powell,1,0,0,0 days 00:00:00.010000000,10,0 days 00:00:00.000000000,0,False,0
+1,14,1,9,1,0,Anthony Grundy,1,0,0,0 days 00:00:00.007000000,7,0 days 00:00:00.000000000,0,False,0
+1,12,1,8,1,0,Mike K.,1,0,0,0 days 00:00:00.006000000,6,0 days 00:00:00.000000000,0,False,0
+1,12,1,8,1,0,Jeff Capel,1,0,0,0 days 00:00:00.007000000,7,0 days 00:00:00.000000000,0,False,0
+1,12,1,8,1,0,Grant Hill,1,0,0,0 days 00:00:00.006000000,6,0 days 00:00:00.000000000,0,False,0
+1,12,1,8,1,0,Bobby Hurley,1,0,0,0 days 00:00:00.014000000,14,0 days 00:00:00.000000000,0,False,0
+1,12,1,8,1,0,Christian Laettner,1,0,0,0 days 00:00:00.009000000,9,0 days 00:00:00.000000000,0,False,0
+1,12,1,8,1,0,Carlos Boozer,1,0,0,0 days 00:00:00.009000000,9,0 days 00:00:00.000000000,0,False,0
+1,12,1,8,1,0,Jayson Williams,1,0,0,0 days 00:00:00.011000000,11,0 days 00:00:00.000000000,0,False,0
+1,12,1,8,1,0,Shane Battier,1,0,0,0 days 00:00:00.007000000,7,0 days 00:00:00.000000000,0,False,0
+1,13,1,9,2,0,Mrs. Wuf,1,0,0,0 days 00:00:00.012000000,12,0 days 00:00:00.000000000,0,False,0
+1,13,1,9,2,0,Marcus Melvin,1,0,0,0 days 00:00:00.013000000,13,0 days 00:00:00.000000000,0,False,0
+1,13,1,9,2,0,Archie Miller,1,0,0,0 days 00:00:00.013000000,13,0 days 00:00:00.000000000,0,False,0
+1,13,1,9,2,0,Julius Hodge,1,0,0,0 days 00:00:00.012000000,12,0 days 00:00:00.000000000,0,False,0
+1,13,1,9,2,0,Illian Evtimov,1,0,0,0 days 00:00:00.011000000,11,0 days 00:00:00.000000000,0,False,0
+1,13,1,9,2,0,Scooter Sherrill,1,0,0,0 days 00:00:00.012000000,12,0 days 00:00:00.000000000,0,False,0
+1,13,1,9,2,0,Josh Powell,1,0,0,0 days 00:00:00.011000000,11,0 days 00:00:00.000000000,0,False,0
+1,13,1,9,2,0,Anthony Grundy,1,0,0,0 days 00:00:00.011000000,11,0 days 00:00:00.000000000,0,False,0
+1,11,1,8,2,0,Mike K.,1,0,0,0 days 00:00:00.010000000,10,0 days 00:00:00.000000000,0,False,0
+1,11,1,8,2,0,Jeff Capel,1,0,0,0 days 00:00:00.010000000,10,0 days 00:00:00.000000000,0,False,0
+1,11,1,8,2,0,Grant Hill,1,0,0,0 days 00:00:00.012000000,12,0 days 00:00:00.000000000,0,False,0
+1,11,1,8,2,0,Bobby Hurley,1,0,0,0 days 00:00:00.010000000,10,0 days 00:00:00.000000000,0,False,0
+1,11,1,8,2,0,Christian Laettner,1,0,0,0 days 00:00:00.010000000,10,0 days 00:00:00.000000000,0,False,0
+1,11,1,8,2,0,Carlos Boozer,1,0,0,0 days 00:00:00.011000000,11,0 days 00:00:00.000000000,0,False,0
+1,11,1,8,2,0,Jayson Williams,1,0,0,0 days 00:00:00.012000000,12,0 days 00:00:00.000000000,0,False,0
+1,11,1,8,2,0,Shane Battier,1,0,0,0 days 00:00:00.012000000,12,0 days 00:00:00.000000000,0,False,0

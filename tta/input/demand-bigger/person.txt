@@ -4,7 +4,7 @@ Michael Jordan,Tarheel
 Jerry Stackhouse,Tarheel
 Dean Smith,Tarheel
 Vince Carter,Tarheel
-Antown Jamison,Tarheel
+Antawn Jamison,Tarheel
 Serge Zwikker,Tarheel
 Dante Calabria,Tarheel
 Shammond Williams,Tarheel

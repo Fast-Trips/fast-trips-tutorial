@@ -1,0 +1,11 @@
+trip_id_num trip_id
+1 Green_G4
+2 Green_G3
+3 Green_G2
+4 Green_G1
+5 Red_R2
+6 Blue_B1
+7 Blue_B2
+8 Blue_B3
+9 Orange_O1
+10 Red_R1
